@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <button class="btn btn-primary">Create Parking</button>
+        <table class="table table-danger table-striped-columns table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Sl. No.</th>
+                    <th scope="col">Car Brand</th>
+                    <th scope="col">Car Number</th>
+                    <th scope="col">Car Type</th>
+                    <th scope="col">Parking Timings</th>
+                    <th scope="col">Parking Slot</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Toyota</td>
+                    <td>KA01F2025</td>
+                    <td>SUV</td>
+                    <td>05:00PM - 09:00PM</td>
+                    <td>A1</td>
+                    <td>
+                        <button class="btn btn-secondary" href="view.html?id=1">View</button>
+                        <button class="btn btn-warning" href="edit.html?id=1">Edit</button>
+                        <button class="btn btn-danger" href="delete.html?id=1">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Mahindra</td>
+                    <td>KA02G2025</td>
+                    <td>Sedan</td>
+                    <td>01:00PM - 04:00PM</td>
+                    <td>B2</td>
+                    <td>
+                        <button class="btn btn-secondary" href="view.html?id=2">View</button>
+                        <button class="btn btn-warning" href="edit.html?id=2">Edit</button>
+                        <button class="btn btn-danger" href="delete.html?id=2">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Tata</td>
+                    <td>KA03H2025</td>
+                    <td>Hatchback</td>
+                    <td>09:00AM - 03:00PM</td>
+                    <td>C3</td>
+                    <td>
+                        <button class="btn btn-secondary" href="view.html?id=3">View</button>
+                        <button class="btn btn-warning" href="edit.html?id=3">Edit</button>
+                        <button class="btn btn-danger" href="delete.html?id=3">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

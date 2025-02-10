@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="usn">USN:</label>
+        <input type="text" name="usn" id="usn" value="1RI20CS012" disabled><br><br>
+        <label for="first_name">First Name:</label>
+        <input type="text" name="first_name" id="first_name" placeholder="Enter your name" maxlength="25" required><br><br>
+        <label for="middle_name">Middle Name:</label>
+        <input type="text" name="middle_name" id="middle_name"><br><br>
+        <label for="last_name">Last Name:</label>
+        <input type="text" name="last_name" id="last_name"><br><br>
+        <label for="email_id">Email:</label>
+        <input type="email" name="email_id" id="email_id"><br><br>
+        <label for="age">Age:</label> <!--Ctrl + D-->
+        <input type="number" name="age" id="age" placeholder="Enter your age" min="18" max="100"><br><br>
+        <label for="phone">Phone Number:</label> 
+        <input type="tel" name="phone" id="phone"><br><br>
+        <label for="password">Password:</label> 
+        <input type="password" name="password" id="password" placeholder="Enter your password"><br><br>
+        <label for="dob">DOB:</label> 
+        <input type="date" name="dob" id="dob" min="1995-01-01" max="2025-02-10"><br><br>
+        <label for="address">Address:</label>
+        <textarea name="address" id="address" rows="10" cols="20"></textarea><br><br>
+        
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male">
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" id="others">
+        <label for="gender">Others</label><br><br>
+        
+        <label for="subjects">Subjects</label>
+        <input type="checkbox" name="science" id="science">
+        <label for="science">Science</label>
+        <input type="checkbox" name="social" id="social">
+        <label for="social">Social</label>
+        <input type="checkbox" name="maths" id="maths">
+        <label for="maths">Maths</label><br><br>
+        
+        <label for="state">State:</label>
+        <select name="state" id="state">
+            <option value="KA">Karnataka</option>
+            <option value="TN">Tamil Nadu</option>
+            <option value="TS">Telangana State</option>
+            <option value="KL">Kerala</option>
+            <option value="MH">Maharastra</option>
+        </select><br><br>
+
+        <label for="photo">Upload Photo:</label>
+        <input type="file" name="photo" id="photo" multiple accept=".pdf, .docx*"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

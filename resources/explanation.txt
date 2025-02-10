@@ -1,0 +1,111 @@
+-------------------------------------------------------------------------------------------------------------------------------------
+
+<meter value="0.7" min="0" max="1" low="0.2" high="0.8" optimum="0.9">
+    70%
+</meter>
+
+value="0.7": Represents the current value (70% in this case).
+min="0": The minimum value (0%).
+max="1": The maximum value (100%).
+low="0.2": The value below which the meter is considered low (20%).
+high="0.8": The value above which the meter is considered high (80%).
+optimum="0.9": The ideal value (90% in this case).
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+<progress value="70" max="100">70%</progress>
+
+Represents the progress of a task (like a file download or upload).
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+<article>
+    <h2>Understanding HTML5</h2>
+    <p>HTML5 is the latest version of the HTML standard...</p>
+</article>
+
+Represents a self-contained piece of content that could be distributed or reused, like a blog post or news article.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+<section>
+    <h2>HTML5 Features</h2>
+    <p>HTML5 introduces several new features...</p>
+</section>
+
+Represents a section of a document, such as a chapter or a group of related content. It helps divide the page into thematic blocks.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+<header>
+    <h1>My Website</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+Represents the header of a document or section. Typically contains navigation links or introductory content.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+<footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+</footer>
+
+Represents the footer of a document or section. It often contains contact information, copyright statements, or links to legal information.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+Represents a block of navigation links.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+<aside>
+    <h3>Related Articles</h3>
+    <ul>
+        <li><a href="#">How to Learn HTML</a></li>
+        <li><a href="#">Introduction to CSS</a></li>
+    </ul>
+</aside>
+
+Represents content that is tangentially related to the content around it, such as sidebars, pull quotes, or related links.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+<figure>
+    <img src="example.jpg" alt="A beautiful landscape">
+    <figcaption>A beautiful landscape in the mountains.</figcaption>
+</figure>
+
+<figure>: Represents media content (like an image, illustration, or video) along with its caption.
+<figcaption>: Represents a caption for a <figure> element.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+<p>This is <mark>important</mark> information.</p>
+
+Represents text that has been highlighted or marked for reference or emphasis.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+<details>
+    <summary>More Info</summary>
+    <p>This is additional information that can be toggled.</p>
+</details>
+
+<details>: Represents a disclosure widget from which the user can obtain additional information or controls.
+<summary>: Represents a summary or heading for a <details> element. This is what the user sees initially, and they can click it to reveal the additional information.
+
+-------------------------------------------------------------------------------------------------------------------------------------

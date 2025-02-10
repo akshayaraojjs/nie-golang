@@ -1,0 +1,11 @@
+Outline
+1. HTML Structure
+2. Basic HTML Tags: headings, p, anchor tag, lists, table, media, forms
+3. HTML5 tags: semantics, structural tags, multimedia elements, new form fields, graphics
+
+Assignment Questions:
+1. Create a page with different headings, paragraphs, and attributes.
+2. Create a webpage listing favorite books or movies using different list types.
+3. Build a Registration form with different form fields.
+4. Create a Time Table using HTML table.
+5. Make an Interactive FAQ Section: Use <details> and <summary> to toggle answers.
