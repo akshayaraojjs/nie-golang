@@ -1,0 +1,11 @@
+[
+ {
+  "ID": "1",
+  "Brand": "Tata",
+  "Number": "AR-1551",
+  "Type": "SUV",
+  "Incoming": "10:00 PM",
+  "Outgoing": "05:00 AM",
+  "Slot": "A-1"
+ }
+]
