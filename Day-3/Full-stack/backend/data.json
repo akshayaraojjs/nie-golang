@@ -1,0 +1,11 @@
+[
+  {
+    "id": "2",
+    "brand": "Audi Q6",
+    "number": "AR-1551",
+    "type": "SUV",
+    "incoming_time": "09:10",
+    "outgoing_time": "17:06",
+    "parking_slot": "A-2"
+  }
+]
